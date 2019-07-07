@@ -1,0 +1,119 @@
+#container{
+    background-color: gray;
+    padding:20px;
+}
+#firstimage{
+    height:500px;
+    background-image:url("https://images4.alphacoders.com/692/thumb-1920-692043.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav>ul>li{
+    display: inline-block;
+    padding:20px;
+    margin-right: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li>a:hover{
+    color:black;
+}
+#nav{
+    position: sticky;
+    top:0;
+    background-color: gray
+}
+#life,#late{
+    height:200px;
+    text-align: center;
+}
+table{
+    border: 1px black solid;
+    border-radius:5px;
+}
+tr:nth-child(even) {
+    background-color: #e7e7e7;
+}
+#programs{
+    display:flex;
+}
+.prog{
+    border-radius:5px;
+    border:0px solid;   
+}
+.logo{
+    float: left;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.timetable{
+    text-align: center;
+}
+
+#whyus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.reasons{
+    padding: 5px;
+    height: 200px;
+    width: 100%;
+}
+.small-divs{
+    padding: 5px;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+}
+#location{
+    background-color: #ffffff;   
+}
+
+
+.mealplan{
+    float:left;
+}
+#location{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* styling for the about section*/
+#about{
+    padding: 30px;
+    background-color: gray;
+    color:white;
+}
+#imgabout{
+    height:500px;
+    padding-left: 150px;
+}
+
+/* Styling for form section. */
+#form{
+    height:500px;
+    background-image: url("https://images.alphacoders.com/692/thumb-1920-692039.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin-left: 100px;
+}
+.contact-form-btn{
+    padding-top: 20px;
+    display:inline-block
+}
+
+#firstimage>p>a{
+    text-decoration: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    text-align: center;
+}
+
